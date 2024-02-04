@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Music</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <div class="screen">
+        <header>
+            <div class="header-container">
+                <button class="btn-back">
+                    <img src="images/down-arrow.png" alt="Back">
+                </button>
+                <div class="header-buttons">
+                    <div class="btn-change-music-video">
+                        <button class="btn-change-music">Music</button>
+                        <button class="btn-change-video">Video</button>
+                    </div>
+                    <button class="btn-cast">
+                        <img src="images/chromecast.png" alt="Cast">
+                    </button>
+                    <button class="btn-options">
+                        <img src="images/more.png" alt="Options">
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="main-container">
+                <div class="music-image">
+
+                </div>
+                <div class="music-info">
+                    <h1>Seven Nation Army</h1>
+                    <h2>The White Stripes</h2>
+                </div>
+                <div class="music-buttons">
+                    <div class="btn-like-deslike">
+                        <button class="btn-like">
+                            <img src="images/like.png" alt="Like button icon">
+                            <p>1,4 MI</p>
+                        </button>
+                        <div class="vertical-bar"></div>
+                        <button class="btn-deslike">
+                            <img src="images/deslike.png" alt="Deslike button icon">
+                        </button>
+                    </div>
+                    <button class="btn-comments">
+                        <img src="images/comments.png" alt="Comments button icon">
+                        <p>726</p>
+                    </button>
+                    <button class="btn-add-to-playlist">
+                        <img src="images/add-list.png" alt="Add to playlist button icon">
+                        <p>Salvar</p>
+                    </button>
+                    <button class="btn-share">
+                        <img src="images/share.png" alt="Share button icon">
+                        <p>Share</p>
+                    </button>
+                    <button class="btn-download">
+                        <img src="images/download.png" alt="Download button icon">
+                        <p>Download</p>
+                    </button>
+                    <button class="btn-radio">
+                        <img src="images/radio.png" alt="Radio button icon">
+                        <p>Radio</p>
+                    </button>
+                </div>
+                <div class="music-progress-bar">
+                    <audio src="audios/Seven Nation Army.mp3" id="seven-nation-army-audio"></audio>
+                    <div class="progress-container">
+                        <div class="progress-bar"></div>
+                        <p class="music-current-time">0:00</p>
+                        <p class="music-duration">3:52</p>
+                    </div>
+                </div>
+                <div class="music-controls">
+                    <button class="btn-random-order">
+                        <img src="images/random.png" alt="Random order button icon">
+                    </button>
+                    <button class="btn-previous-music">
+                        <img src="images/previous-button.png" alt="Previous music button icon">
+                    </button>
+                    <button class="btn-play-pause-music-selected">
+                        <img src="images/play.png" alt="Play pause button icon">
+                    </button>
+                    <button class="btn-next-music">
+                        <img src="images/next-button.png" alt="Next music button icon">
+                    </button>
+                    <button class="btn-repeat-music">
+                        <img src="images/repeat.png" alt="Repeat music button icon">
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <ul class="menu-footer">
+                    <li>
+                        <a href="#">NEXT</a>
+                    </li>
+                    <li>
+                        <a href="#">LYRICS</a>
+                    </li>
+                    <li>
+                        <a href="#">RELATED</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
